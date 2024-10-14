@@ -1,0 +1,13 @@
+﻿  CFour.cpp
+  COne.cpp
+C:\Users\synesthesia\source\repos\ConsoleApplication13\ConsoleApplication13\COne.cpp(14,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\synesthesia\source\repos\ConsoleApplication13\ConsoleApplication13\COne.cpp(26,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\synesthesia\source\repos\ConsoleApplication13\ConsoleApplication13\COne.cpp(46,13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\synesthesia\source\repos\ConsoleApplication13\ConsoleApplication13\COne.cpp(73,9): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  CThree.cpp
+  CTwo.cpp
+  main.cpp
+  Создание кода...
+  ConsoleApplication13.vcxproj -> C:\Users\synesthesia\source\repos\ConsoleApplication13\x64\Debug\ConsoleApplication13.exe
+  "pwsh.exe" не является внутренней или внешней
+  командой, исполняемой программой или пакетным файлом.
