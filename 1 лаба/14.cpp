@@ -6,7 +6,7 @@ private:
     int numerator;   // числитель
     int denominator; // знаменатель
 
-    // приведение к редуцированной форме
+    // приведение к одному знаменателю
     void reduce() {
         int gcdValue = gcd(abs(numerator), abs(denominator));
         numerator /= gcdValue;
@@ -18,7 +18,7 @@ private:
         }
     }
 
-    // нод евклида
+    // наибольший общие делитель
     int gcd(int a, int b) const {
         while (b != 0) {
             int temp = a % b;
