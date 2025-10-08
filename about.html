@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании - SOLID</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <nav>
+                <a href="index.html" class="logo">SOLID</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html" class="active">О нас</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <section class="about-section">
+                <h1 class="animate-on-load">О нашей компании</h1>
+                
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="back.jpg" alt="Компания SOLID" class="company-photo">
+                    </div>
+                    <div class="about-text">
+                        <p>SOLID - надежный партнер в области строительства и ремонта. Мы предоставляем полный спектр услуг для реализации проектов любой сложности.</p>
+                        <p>Наша команда профессионалов использует современные технологии и качественные материалы для достижения наилучших результатов.</p>
+                        <p>Мы гордимся нашей репутацией и стремимся к долгосрочному сотрудничеству с каждым клиентом.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="documents-section">
+                <h2>Документы и информация</h2>
+                <div class="documents-container">
+                    <div class="document-card">
+                        <div class="document-icon">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M14 2V8H20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 13H14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 17H14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 9H12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="document-info">
+                            <h3>Лицензии</h3>
+                            <p>Ознакомьтесь с нашими лицензиями и сертификатами, подтверждающими право на осуществление строительной деятельности.</p>
+                            <a href="#" class="document-link" id="open-licenses-modal">Подробнее →</a>
+                        </div>
+                    </div>
+
+                    <div class="document-card">
+                        <div class="document-icon">
+                            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 21V19C17 17.9391 16.5786 16.9217 15.8284 16.1716C15.0783 15.4214 14.0609 15 13 15H5C3.93913 15 2.92172 15.4214 2.17157 16.1716C1.42143 16.9217 1 17.9391 1 19V21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="9" cy="7" r="4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 21V19C22.9993 18.1137 22.7044 17.2528 22.1614 16.5523C21.6184 15.8519 20.8581 15.3516 20 15.13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="document-info">
+                            <h3>Партнерам</h3>
+                            <p>Информация для наших партнеров: договоры, соглашения о сотрудничестве и другие важные документы.</p>
+                            <a href="#" class="document-link" id="open-partners-modal">Подробнее →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>SOLID</h4>
+                    <p>Надежный партнер в строительстве</p>
+                </div>
+                <div class="footer-section footer-contact">
+                    <h4>Контакты</h4>
+                    <p>Email: info@solid-company.ru</p>
+                    <p>Телефон: +7 (XXX) XXX-XX-XX</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SOLID. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal for Licenses -->
+    <div id="licenses-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="licenses-modal"></span>
+            <h3>Лицензии и сертификаты</h3>
+            <ul>
+                <li><a href="#" download>Лицензия на строительную деятельность.pdf</a></li>
+                <li><a href="#" download>Сертификат соответствия ISO 9001.pdf</a></li>
+                <li><a href="#" download>Разрешение на проведение работ.pdf</a></li>
+                <li><a href="#" download>Свидетельство о допуске СРО.pdf</a></li>
+                <li><a href="#" download>Лицензия на проектирование.pdf</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Modal for Partners -->
+    <div id="partners-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" data-modal="partners-modal"></span>
+            <h3>Документы для партнеров</h3>
+            <ul>
+                <li><a href="#" download>Договор о сотрудничестве (образец).pdf</a></li>
+                <li><a href="#" download>Соглашение о партнерстве.pdf</a></li>
+                <li><a href="#" download>Коммерческое предложение.pdf</a></li>
+                <li><a href="#" download>Прайс-лист для партнеров.pdf</a></li>
+                <li><a href="#" download>Условия сотрудничества.pdf</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
